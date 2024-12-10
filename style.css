@@ -12,7 +12,11 @@
   width: 100px;
   height: 100px;
 } 
-/* .vfrc-chat--overlay {} */
+
+.vfrc-chat--overlay {
+  width: 100px;
+  height: 100px;  
+}
 
 .vfrc-prompt {
   width: 100px;
