@@ -41,11 +41,9 @@
   height: 100px;  
 }
 
-.vfrc-proactive-message bounce {
-  animation: dramatic-bounce 2.5s ease-in-out;
-}
 
 .vfrc-proactive-message {
+  animation: dramatic-bounce 2.5s ease-in-out;
   border: 2px solid #db0204;
   color: #000000;
 }
