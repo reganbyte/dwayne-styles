@@ -1,6 +1,14 @@
 .vfrc-system-response .vfrc-message {
   background-color: #ededed; 
   color: #000000;
-  
-  
 }
+
+/* .voiceflow-chat {} */
+
+.vfrc-launcher {
+  width: 100px;
+} 
+
+/* .vfrc-chat--overlay {} */
+
+/* .vfrc-prompt {} */
