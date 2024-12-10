@@ -22,3 +22,8 @@
   width: 100px;
   height: 100px;  
 }
+
+.vfrc-proactive-message {
+  border: 2px solid blue;
+  color: red;
+}
