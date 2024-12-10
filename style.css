@@ -4,9 +4,9 @@
 }
 
 
-.vfrc-launcher .voiceflow-chat .vfrc-prompt .vfrc-chat--overlay {
-  width: 100px;
-  height: 100px;
+.vfrc-launcher .voiceflow-chat .vfrc-prompt {
+  width: 150px;
+  height: 150px;
 } 
 
 /* .vfrc-chat--overlay {} */
