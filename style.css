@@ -4,11 +4,18 @@
 }
 
 
-.vfrc-launcher .voiceflow-chat {
+.vfrc-launcher {
   width: 150px;
   height: 150px;
 } 
 
+.voiceflow-chat {
+  width: 150px;
+  height: 150px;
+} 
 /* .vfrc-chat--overlay {} */
 
-/* .vfrc-prompt {} */
+.vfrc-prompt {
+  width: 150px;
+  height: 150px;  
+}
