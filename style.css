@@ -4,7 +4,7 @@
 }
 
 
-.vfrc-launcher .voiceflow-chat {
+.vfrc-launcher .voiceflow-chat .vfrc-prompt .vfrc-chat--overlay {
   width: 100px;
   height: 100px;
 } 
