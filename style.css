@@ -1,3 +1,15 @@
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
 .vfrc-system-response .vfrc-message {
   background-color: #ededed; 
   color: #e0fd2c;
@@ -21,6 +33,10 @@
 .vfrc-prompt {
   width: 100px;
   height: 100px;  
+}
+
+.vfrc-proactive-message bounce {
+    animation: bounce 2s ease-in-out;
 }
 
 .vfrc-proactive-message {
