@@ -27,6 +27,7 @@
 } 
 
 .vfrc-launcher img {
+  background-color: #FFFFFF;
   width: 100px;
   height: 100px;
 } 
@@ -47,7 +48,7 @@
 }
 
 
-.vfrc-proactive-message {
+.vfrc-proactive-message .vfrc-launcher {
   animation: dramatic-bounce 2.5s ease-in-out;
   border: 2px solid #db0204;
   color: #000000;
