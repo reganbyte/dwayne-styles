@@ -3,16 +3,16 @@
     transform: translateY(0);
   }
   20% {
-    transform: translateY(-50px);
+    transform: translateY(-150px);
   }
   40% {
-    transform: translateY(30px);
+    transform: translateY(300px);
   }
   60% {
-    transform: translateY(-40px);
+    transform: translateY(-240px);
   }
   80% {
-    transform: translateY(20px);
+    transform: translateY(200px);
   }
 }
 
@@ -28,9 +28,14 @@
 } 
 
 .vfrc-launcher img {
+  transition: filter 0.3s ease; /* Smooth transition */
   width: 100px;
   height: 100px;
 } 
+
+.vfrc-launcher:hover img {
+  filter: brightness(0) invert(1); /* Turns the image white */
+}
 
 .voiceflow-chat {
   width: 100px;
