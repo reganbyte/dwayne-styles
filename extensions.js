@@ -510,7 +510,6 @@ export const FeedbackExtension = {
           window.voiceflow.chat.interact({
             type: 'complete',
             payload: { feedback: feedback },
-            console.log("Thanks!")
           })
 
           feedbackContainer
