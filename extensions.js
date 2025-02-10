@@ -509,7 +509,7 @@ export const FeedbackExtension = {
           const feedback = this.getAttribute('data-feedback')
           window.voiceflow.chat.interact({
             type: 'complete',
-            payload: { feedback: feedback },
+            payload: { feedback },
           })
           //   window.voiceflow.chat.interact({
           //   type: 'message',
