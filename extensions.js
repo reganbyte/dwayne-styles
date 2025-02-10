@@ -435,7 +435,7 @@ export const FeedbackExtension = {
   name: 'Feedback',
   type: 'response',
   match: ({ trace }) =>
-    trace.type === 'ext_feedback' || trace.payload.name === 'ext_feedback',
+    trace.type === 'ext_feedback' || trace.payload?.name === 'ext_feedback',
   render: ({ trace, element }) => {
     const feedbackContainer = document.createElement('div')
 
