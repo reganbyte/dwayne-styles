@@ -507,14 +507,14 @@ export const FeedbackExtension = {
       .forEach((button) => {
         button.addEventListener('click', function (event) {
           const feedback = this.getAttribute('data-feedback')
-          // window.voiceflow.chat.interact({
-          //   type: 'complete',
-          //   payload: { feedback: feedback },
-          // }),
-            window.voiceflow.chat.interact({
-            type: 'message',
-            payload: { feedback },
+          window.voiceflow.chat.interact({
+            type: 'complete',
+            payload: { feedback: feedback },
           })
+          //   window.voiceflow.chat.interact({
+          //   type: 'message',
+          //   payload: { feedback },
+          // })
 
           feedbackContainer
             .querySelectorAll('.vfrc-feedback--button')
