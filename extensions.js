@@ -501,9 +501,6 @@ export const FeedbackExtension = {
             }
           </style>
           <div class="vfrc-feedback">
-            /*
-            <div class="vfrc-feedback--description">Was this helpful?</div>
-            */
             <div class="vfrc-feedback--buttons">
               <button class="vfrc-feedback--button" data-feedback="1">${SVG_Thumb}</button>
               <button class="vfrc-feedback--button" data-feedback="0">${SVG_Thumb}</button>
